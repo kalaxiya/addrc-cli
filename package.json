@@ -1,0 +1,17 @@
+{
+  "name": "addrc",
+  "version": "1.0.0",
+  "description": "CLI for add react component",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "addrc": "./bin/index.js"
+  },
+  "author": "lin.yanfeng",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
