@@ -18,7 +18,7 @@ program
 if (!componentName) {
   program.help()
 } else {
-  componentName = componentName[0].toUpperCase() + componentName.slice(1).toLowerCase()
+  componentName = componentName[0].toUpperCase() + componentName.slice(1)
 
   if (
     fs.existsSync(join(cwd, componentName)) ||
